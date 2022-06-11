@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('[data-id="dbdc3f10-e696-11ec-b2d7-41bf6778975e"]').prop('readonly',true);
+  $('[data-id="8b8fc310-e9c0-11ec-ba06-654ee29d1609"]').prop('readonly',true);
 
   var total = parseInt(
     $('h3.cli-cart-total').text() ? $('h3.cli-cart-total').text().replace(/[^\d.]/g, '') : '1500', 
@@ -41,5 +41,5 @@ function fillAddress(data) {
     }
   }
 
-  $('[data-id="dbdc3f10-e696-11ec-b2d7-41bf6778975e"]').val(address.join(', '));
+  $('[data-id="8b8fc310-e9c0-11ec-ba06-654ee29d1609"]').val(address.join(', '));
 }
