@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  $('.responsive-tabs').responsiveTabs({
+    accordionOn: ['xs', 'sm'] // xs, sm, md, lg
+  });
+  
   $('[data-id="8b8fc310-e9c0-11ec-ba06-654ee29d1609"]').prop('readonly',true);
 
   var total = parseInt(
