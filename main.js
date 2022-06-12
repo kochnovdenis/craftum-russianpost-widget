@@ -24,6 +24,7 @@ $(document).ready(function() {
 });
 
 function initRussianpostOps(total) {
+  $('[data-id="8b8fc310-e9c0-11ec-ba06-654ee29d1609"]').val('');
   $('#ecom-widget-ops').html('');
   
   var params = {
