@@ -63,4 +63,6 @@ function fillAddress(data) {
   }
 
   $('[data-id="8b8fc310-e9c0-11ec-ba06-654ee29d1609"]').val(address.join(', '));
+  
+  $('.cli-cart-icon').click();
 }
