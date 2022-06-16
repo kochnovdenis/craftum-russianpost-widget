@@ -55,6 +55,7 @@ function initRussianpostCourier(total) {
 
 function fillAddress(data) {
   console.info(data);
+  
   var address = [];
   for (prop of ['regionTo', 'areaTo', 'cityTo', 'addressTo', 'indexTo']) {
     if (data.hasOwnProperty(prop) && data[prop]) {
