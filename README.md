@@ -1,4 +1,6 @@
 # craftum-russianpost-widget
+
+```
 <script src='https://code.jquery.com/jquery-2.1.1.min.js'></script>
 <script src='https://widget.pochta.ru/map/widget/widget.js'></script>
 <script src='https://widget.pochta.ru/courier/widget/widget.js'></script>
@@ -28,3 +30,4 @@
     </div>
   </div>
 </div>
+```
